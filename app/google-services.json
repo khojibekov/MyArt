@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "30620259790",
+    "project_id": "myart-db5c1",
+    "storage_bucket": "myart-db5c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30620259790:android:6fa99ebe1d5f5244db079f",
+        "android_client_info": {
+          "package_name": "com.example.myart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30620259790-dtbol7275qodtfqk0ggo48dj1o7go440.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg4sQFDMsFgZmXtCYYLmxaXFI2BlL01ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30620259790-dtbol7275qodtfqk0ggo48dj1o7go440.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

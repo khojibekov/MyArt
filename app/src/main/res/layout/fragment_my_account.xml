@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyAccountFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/profile_data_layout"></include>
+
+            <include layout="@layout/order_status_layout"></include>
+
+            <include layout="@layout/your_recent_orders_layout"></include>
+
+            <include layout="@layout/my_adresses_layout"></include>
+
+            <Button
+                android:id="@+id/sign_out_Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/background1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Выход"
+                android:textColor="@color/white"
+                android:textSize="12sp"></Button>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
